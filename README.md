@@ -1,8 +1,8 @@
-###  DATE: 
+###  DATE: 14/2/2024
 
-###  NAME: 
-###  ROLL NO :
-###  DEPARTMENT: 
+###  NAME: PREETHI A K
+###  ROLL NO :212223230156
+###  DEPARTMENT: AI & DS
 
 
 
@@ -86,6 +86,26 @@ The main features of LPC2148 include the following.
 
 
 ## STM 32 CUBE PROGRAM :
+#include"stdio.h"
+
+#include"main.h"
+
+MX_GPIO_Init();
+
+while(1)
+
+{
+
+HAL_GPIO_WritePin(GPIO,GPIO_PIN_0,RESET);
+
+HAL_Delay(1000);
+
+HAL_GPIO_WritePin(GPIO,GPIO_PIN_0,SET);
+
+HAL_Delay(1000);
+
+}
+
 
 
 
